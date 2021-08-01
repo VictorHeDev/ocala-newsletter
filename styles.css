@@ -1,0 +1,83 @@
+/* This stylesheet is "Desktop First */
+
+html {
+  background: #F3F3F3;
+}
+
+body {
+  text-align: center;
+  box-sizing: border-box;
+  font-family: "Times New Roman", serif;
+}
+
+.desktop-hidden {
+  display: none;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.row,
+.stories {
+  display: flex;
+}
+
+.stories {
+  flex-direction: column;
+}
+
+.row div,
+.stories div {
+  flex: 1;
+}
+
+p.date {
+  border-bottom: 10px solid black;
+  width: 95%;
+  margin: 0 auto;
+  padding-bottom: 1em;
+  font-size: 1.5em;
+  letter-spacing: 3px;
+  font-weight: bold;
+}
+
+.top-story img,
+.top-story p {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.story {
+  border: 1px solid black;
+  background-color: #D8D8D8;
+  margin: 0 3em 1.5em 3em;
+  padding: 1em;
+}
+
+.story h3 {
+  margin: 0;
+}
+
+h1,
+h2, 
+h3 {
+  font-family: "Lucida Grande", serif;
+}
+
+h1 {
+  font-size: 3.5em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 500;
+  letter-spacing: 3px;
+  margin: 1em 0 .4em 0;
+}
+
+h2,
+h3 {
+  text-transform: capitalize;
+}
+
+/* Mobile Second */

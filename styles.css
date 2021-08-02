@@ -81,3 +81,27 @@ h3 {
 }
 
 /* Mobile Second */
+
+@media (max-width: 768px) {
+  .row {
+    flex-direction: column;
+  }
+
+  .desktop-hidden {
+    display: block;
+  }
+
+  .mobile-hidden {
+    display: none;
+  }
+
+  h1 {
+    letter-spacing: 0;
+    font-size: 1.7em;
+    font-weight: bold;
+  }
+
+  .top-story {
+    margin: 1em 0;
+  }
+}
